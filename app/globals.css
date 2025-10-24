@@ -4,6 +4,7 @@
   --background: #1e2338;
   --foreground: #171717;
   --text-color: #bd061f;
+  --nav-height: 72px;
 }
 
 @theme inline {
