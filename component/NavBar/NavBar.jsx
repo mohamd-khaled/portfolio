@@ -8,7 +8,7 @@ function NavBar() {
   const { isActive, setIsActive } = useContext(NavContext);
   return (
     <div
-      className="text-(--text-color) bg-background flex sticky justify-between items-center w-full top-0 left-0 z-999 px-8 border-b-solid border-b h-(--nav-height)
+      className="text-(--active-text) bg-background flex sticky justify-between items-center w-full top-0 left-0 z-999 px-8 border-b-solid border-b h-(--nav-height)
     "
     >
       <Link
@@ -25,11 +25,10 @@ function NavBar() {
               <li key={item.id}>
                 <Link
                   href={`/${item.link}`}
-                  className={`ml-[15px] text-[20px] font-500 border-b-[3px] border-b-solid transition-all duration-300 hover:border-b-(--text-color) ${
-                    isActive === `${item.link}`
-                      ? "text-(--text-color) border-b-(--text-color)"
-                      : "text-white border-b-transparent"
-                  }`}
+                  className={`ml-[15px] text-[20px] font-500 border-b-[3px] border-b-solid transition-all duration-300 hover:border-b-(--active-text) ${isActive === `${item.link}`
+                    ? "text-(--active-text) border-b-(--active-text)"
+                    : "text-white border-b-transparent"
+                    }`}
                   onClick={() => {
                     setIsActive(`${item.link}`);
                   }}

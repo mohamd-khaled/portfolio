@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #1e2338;
+  --background: #d1d5db;
   --foreground: #171717;
-  --text-color: #bd061f;
+  --active-text:#212a31;
+  --project-bg:#124e66;
   --nav-height: 72px;
 }
 
@@ -16,7 +17,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1e2338;
+    --background: #d1d5db;
+    --active-text:#212a31;
+    --project-bg:#124e66;
+
     --foreground: #ededed;
   }
 }
@@ -26,3 +30,13 @@ body {
   color: var(--foreground);
   font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
 }
+
+
+@theme {
+        --animate-fade-in-up: fadeInUp 0.5s ease-out forwards;
+
+      @keyframes fadeInUp {
+          0%: { opacity: '0'; transform: 'translateY(20px)' }
+          100%: { opacity: '1'; transform: 'translateY(0)' }
+        }
+      }
