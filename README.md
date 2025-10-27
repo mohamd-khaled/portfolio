@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A modern, responsive, and high-performance **personal portfolio website** built with **Next.js 16**, **React 19**, and **Tailwind CSS 4**.  
+This project showcases professional experience, projects, and skills — designed with clean UI, smooth animations, and fast performance in mind.
 
-First, run the development server:
+---
 
-```bash
+## Project Overview
+
+This portfolio serves as a digital presence to highlight your work, background, and contact details.  
+It focuses on accessibility, responsiveness, and performance while maintaining an elegant and minimal design aesthetic.
+
+---
+
+## Tech Stack
+
+- **Framework:** [Next.js 16](https://nextjs.org/)
+- **Frontend:** [React 19](https://react.dev/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations:** [ReactBits](https://reactbits.dev/)
+- **Icons:** [Font Awesome 7](https://fontawesome.com/)
+- **Linting:** [ESLint 9](https://eslint.org/)
+- **Package Manager:** npm
+
+---
+
+Folder Structure
+
+portfolio/
+├── jsconfig.json # JavaScript configuration
+├── package.json # Project dependencies and scripts
+├── components/ # Reusable React components
+├── pages/ # Next.js pages and routes
+├── styles/ # Global styles and Tailwind CSS
+├── public/ # Static assets (images, icons, fonts)
+├── utils/ # Helper functions and utilities
+└── node_modules/ # Project dependencies
+
+How to Run the Project
+Prerequisites
+
+- Node.js 18+ installed on your system
+- npm, yarn, or pnpm package manager
+
+Installation
+
+1-Clone the repository
+
+git clone https://github.com/mohamd-khaled/portfolio.git
+cd portfolio
+
+2-Install dependencies
+
+npm install
+
+# or
+
+yarn install
+
+# or
+
+pnpm install
+
+3-Run the development server
+
 npm run dev
+
 # or
+
 yarn dev
+
 # or
+
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4- Visit http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- npm run dev - Start development server with hot reload
+- npm run build - Build the project for production
+- npm run start - Start production server
+- npm run lint - Run ESLint for code quality checks
 
-## Learn More
+Social Links
 
-To learn more about Next.js, take a look at the following resources:
+Connect with me through these platforms:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: https://github.com/mohamd-khaled
+- LinkedIn: https://www.linkedin.com/in/mkhaled2001/
+- Portfolio: https://mohamdkhaled.netlify.app/
+- Email: muhamed.khaled.2024@gmail.com
