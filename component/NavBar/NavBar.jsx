@@ -13,7 +13,7 @@ function NavBar() {
     >
       <Link
         href="/"
-        className=" text-[30px] font-800 cursor-pointer flex justify-center items-center transition duration-300 hover:scale-[1.1]"
+        className=" md:text-[30px] text-[20px] font-bold  cursor-pointer flex justify-center items-center transition duration-300 hover:scale-[1.1]"
       >
         Mohamed Khaled
       </Link>
@@ -25,7 +25,7 @@ function NavBar() {
               <li key={item.id}>
                 <Link
                   href={`/${item.link}`}
-                  className={`ml-[15px] text-[20px] font-500 border-b-[3px] border-b-solid transition-all duration-300 hover:border-b-(--active-text) ${isActive === `${item.link}`
+                  className={`ml-[15px] md:text-[20px] text-[16px] font-500 border-b-[3px] border-b-solid transition-all duration-300 hover:border-b-(--active-text) ${isActive === `${item.link}`
                     ? "text-(--active-text) border-b-(--active-text)"
                     : "text-white border-b-transparent"
                     }`}

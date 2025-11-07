@@ -19,7 +19,7 @@ function Projects() {
                     const isEven = index % 2 === 0;
                     const imageSection = (
                         <div className="img">
-                            <img src={project.image} alt={project.name} className={`w-full rounded-2xl duration-300 ${isEven ? "hover:translate-x-5" : "hover:-translate-x-5"}`} />
+                            <img src={project.image} alt={project.name} className={`w-full rounded-2xl duration-300 ${isEven ? "md:hover:translate-x-5" : "md:hover:-translate-x-5"}`} />
                         </div>
                     );
                     const contentSection = (
@@ -39,8 +39,14 @@ function Projects() {
 
                     return (
                         <div key={project.id} className="md:grid md:gap-10 md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] mb-20 border-(--active-text) border-2 rounded-2xl bg-(--project-bg)/50">
-                            {isEven ? imageSection : contentSection}
-                            {isEven ? contentSection : imageSection}
+                            <div className="md:hidden">
+                                {imageSection}
+                                {contentSection}
+                            </div>
+                            <div className="hidden md:contents">
+                                {isEven ? imageSection : contentSection}
+                                {isEven ? contentSection : imageSection}
+                            </div>
                         </div>
                     )
                 })}
