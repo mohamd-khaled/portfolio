@@ -42,13 +42,13 @@ function page() {
                 <div className="phone flex flex-col items-center justify-center gap-5">
                     <a href="+201016474258">
                         <h3 className="text-white transition-all duration-300 hover:text-(--active-text) flex">
-                            <img src="imgs/phone.svg" alt="phone" className="mr-1 max-md:w-[20px]" /> +201559716567
+                            <img src="imgs/phone.svg" alt="phone" className="mr-1 max-md:w-5" /> +201559716567
                         </h3>
                     </a>
 
                     <a href="+201016474258">
                         <h3 className="text-white transition-all duration-300 hover:text-(--active-text) flex">
-                            <img src="imgs/phone.svg" alt="phone" className="mr-1 max-md:w-[20px]" /> +201016474258
+                            <img src="imgs/phone.svg" alt="phone" className="mr-1 max-md:w-5" /> +201016474258
                         </h3>
                     </a>
 
