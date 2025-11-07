@@ -3,21 +3,21 @@ import React from "react";
 function Hero() {
   return (
     <div className=" w-full h-screen p-[5%] flex justify-center items-center gap-32 bg-center ">
-      <div className="m-auto p-10 rounded-4xl items-center bg-(--project-bg)/50">
-        <h1 className="text-7xl font-600 mb-5 bg-transparent">
+      <div className="m-auto  md:p-10 p-5 rounded-4xl items-center bg-(--project-bg)/50">
+        <h1 className="md:text-7xl text-5xl font-600 mb-5 bg-transparent">
           HI, I am{" "}
           <span className="bg-transparent text-(--active-text)">
             Mohamed Khaled
           </span>
         </h1>
 
-        <h3 className="text-4xl font-500 bg-transparent">
+        <h3 className="md:text-4xl text-3xl font-500 bg-transparent">
           <span className="text-(--active-text)">FrontEnd web Developer</span>
         </h3>
 
-        <div className="about py-16" id="about">
+        <div className="about md:py-16 py-10" id="about">
           <div className="w-full">
-            <p className=" text-[18px] ">
+            <p className=" md:text-[18px] text-[16px]">
               I graduated from Faculty of Engineering, Communication and
               Electronic Department, I currently working in IT Field, I am
               working on developing my skills in FrontEnd development using{" "}
