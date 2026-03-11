@@ -12,7 +12,7 @@ function Hero() {
         </h1>
 
         <h3 className="md:text-4xl text-3xl font-500 bg-transparent">
-          <span className="text-(--active-text)">FrontEnd web Developer</span>
+          <span className="text-(--active-text)">BackEnd web Developer</span>
         </h3>
 
         <div className="about md:py-16 py-10" id="about">
