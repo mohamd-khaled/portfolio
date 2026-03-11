@@ -11,7 +11,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(fas, far, fab)
 
-function ReactProjects() {
+function BackEndProjects() {
 
 
     return (
@@ -55,4 +55,4 @@ function ReactProjects() {
     )
 }
 
-export default ReactProjects
+export default BackEndProjects
