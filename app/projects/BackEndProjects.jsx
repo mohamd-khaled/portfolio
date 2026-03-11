@@ -16,7 +16,7 @@ function BackEndProjects() {
 
     return (
         <div>
-            <h2 className='w-fit m-auto text-(--active-text) p-3 mb-10 border-solid border-2 border-(--active-text) rounded-2xl text-2xl font-bold bg-(--project-bg)/50'>React Projects</h2>
+            <h2 className='w-fit m-auto text-(--active-text) p-3 mb-10 border-solid border-2 border-(--active-text) rounded-2xl text-2xl font-bold bg-(--project-bg)/50'>BackEnd Projects</h2>
 
             <div className={`projects`}>
                 {backendDetails.map((project, index) => {
@@ -27,9 +27,6 @@ function BackEndProjects() {
                             <p>{project.description}</p>
                             <ul className='flex'>
                                 <li className='m-2.5 duration-300 hover:text-(--active-text)'>
-                                    <a href={project.projectLink}><FontAwesomeIcon icon="fa-solid fa-rocket" className="w-[35px]" /></a>
-                                </li>
-                                <li className='m-2.5 duration-300 hover:text-(--active-text)'>
                                     <a href={project.githubLink}><FontAwesomeIcon icon="fa-brands fa-github" className="w-[35px]" /></a>
                                 </li>
                             </ul>
@@ -39,12 +36,10 @@ function BackEndProjects() {
                     return (
                         <div key={project.id} className={`md:grid md:gap-10 md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] mb-20 border-(--active-text) border-2 rounded-2xl bg-(--project-bg)/50 transition-opacity ease-in duration-700`}>
                             <div className="md:hidden">
-                                {imageSection}
                                 {contentSection}
                             </div>
                             <div className="hidden md:contents">
-                                {isEven ? imageSection : contentSection}
-                                {isEven ? contentSection : imageSection}
+                                {contentSection}
                             </div>
                         </div>
                     )

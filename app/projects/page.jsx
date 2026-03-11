@@ -5,9 +5,9 @@ import BackEndProjects from "./BackEndProjects";
 
 function page() {
     return (<div className="flex flex-col-reverse gap-16 p-10">
-        <BackEndProjects /> 
         <Projects />    
         <ReactProjects />
+        <BackEndProjects /> 
     </div>);
 }
 
