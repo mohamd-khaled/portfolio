@@ -20,12 +20,14 @@ function Hero() {
             <p className=" md:text-[18px] text-[16px]">
               I graduated from Faculty of Engineering, Communication and
               Electronic Department, I currently working in IT Field, I am
-              working on developing my skills in FrontEnd development using{" "}
+              working on developing my skills in BackEnd development using{" "}
               <span className="text-(--active-text)">
-                HTML, CSS, JavScript, and React - NextJs
+                NodeJs- Express- MongoDB
               </span>{" "}
-              My goal is to work as a professional Frontend Developer, focusing
-              on create modern, interactive and user-friendly web experiences.
+              My goal is to work as a professional BackEnd Developer, and I am
+              looking for a job opportunity to achieve this goal, I am a quick
+              learner and I am always looking for new challenges to improve my
+              skills and gain more experience in the field of web development.
             </p>
           </div>
         </div>

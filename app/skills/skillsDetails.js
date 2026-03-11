@@ -33,6 +33,16 @@ export const languages = [{
     name: "Material-ui",
     src: "logos/mui.png"
 },
+{
+    id: 8,
+    name: "Nodejs",
+    src: "logos/nodejs.png"
+},
+{
+    id: 9,
+    name: "MongoDB",
+    src: "logos/mongodb.png"
+},
 ]
 
 export const tools = [{

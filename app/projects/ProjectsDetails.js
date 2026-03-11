@@ -1,3 +1,18 @@
+export const backendDetails = [
+    {
+        id: 1,
+        name: "E-commerce REST API",
+        description: "This Project is built while I was learning Nodejs, Express, and MongoDB, from udemy course, it is built using Nodejs and Express for the backend and MongoDB for the database, it has a simple authentication system using JWT and bcrypt and password reset functionality, and it has a CRUD operations for categories, subcategories, products and users.",
+        githubLink: "https://github.com/mohamd-khaled/BackEnd-Ecommerce-Course-Project"
+    },
+    {
+        id: 2,
+        name: "Task Manager REST API",
+        description: "This Project is built to practice what i learned in Nodejs, Express, and MongoDB, it is built using Nodejs and Express for the backend and MongoDB for the database, it has a simple authentication system using JWT and bcrypt, and it has a CRUD operations for tasks and users, every task is associated with a user and only the owner of the task can perform CRUD operations on it and it has a status that can be toggled between completed and pending, and has a priority.",
+        githubLink: "https://github.com/mohamd-khaled/BackEnd_For_Task_Manager"
+    }
+]
+
 export const projectDetails = [
     {
         id: 1,
